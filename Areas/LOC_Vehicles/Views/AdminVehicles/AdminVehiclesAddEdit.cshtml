@@ -1,0 +1,170 @@
+﻿@model VehicleBooking.Areas.LOC_Vehicles.Models.AdminVehiclesModel
+
+@{
+    ViewData["Title"] = "Save";
+}
+
+@* <h2>Add/Edit Vehicles</h2>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-area="LOC_Vehicles" asp-controller="AdminVehicles" asp-action="Save">
+            <div asp-validation-for="All" class="text-danger"></div>
+            @Html.HiddenFor(X=>X.VehicleId)
+
+            <div class="form-group">
+                <label asp-for="VehicleName" class="control-label"></label>
+                <input asp-for="VehicleName" class="form-control"/>
+                <span asp-validation-for="VehicleName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VehicleTypeID" class="control-label">VehicleTypeID</label>
+                <input asp-for="VehicleTypeID" class="form-control" required />
+
+                <span asp-validation-for="VehicleTypeID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                 <label for="inputState">VehicleType Name</label>
+                    <select id="inputState" class="form-select" asp-for="VehicleTypeID" asp-items="@(new SelectList(ViewBag.school,"VehicleTypeID","VehicleTypeName"))">
+                            <option disabled selected>Select VehicleTypeName</option>
+                    </select>
+                <span asp-validation-for="VehicleTypeID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RegistrationNumber" class="control-label"></label>
+                <input asp-for="RegistrationNumber" class="form-control"/>
+                <span asp-validation-for="RegistrationNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NumberOfPassenger" class="control-label"></label>
+                <input asp-for="NumberOfPassenger" class="form-control"/>
+                <span asp-validation-for="NumberOfPassenger" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                <input asp-for="Status" class="form-control"/>
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChargePerKM" class="control-label"></label>
+                <input asp-for="ChargePerKM" class="form-control"/>
+                <span asp-validation-for="ChargePerKM" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-2">
+                <button asp-area="LOC_Vehicles" asp-controller="AdminVehicles" asp-action="Save" class="btn btn-primary"> Save</button>
+                <a asp-area="LOC_Vehicles" asp-controller="AdminVehicles" asp-action="AdminVehiclesList" class="btn btn-info">Back to List</a>
+
+            </div>
+        </form>
+    </div>
+</div>
+
+
+ *@
+<!-- Content wrapper -->
+<div class="content-wrapper">
+    <!-- Content -->
+
+    <div class="container-xxl flex-grow-1 container-p-y">
+        <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Vehicles/</span> VehiclesAdd/Edit </h4>
+
+        <!-- Basic Layout & Basic with Icons -->
+        <div class="row">
+            <!-- Basic Layout -->
+            <div class="col-xxl">
+                <div class="card mb-4">
+                    <div class="card-header d-flex align-items-center justify-content-between">
+                        <h5 class="mb-0"></h5>
+                        <small class="text-muted float-end"></small>
+                    </div>
+                    <div class="card-body">
+                        <form asp-area="LOC_Vehicles" asp-controller="AdminVehicles" asp-action="Save">
+                            <div asp-validation-for="All" class="text-danger"></div>
+                            @Html.HiddenFor(X => X.VehicleId)
+                             @* 
+                            <div class="row mb-3">
+                                <label>IamgeUrl</label>
+                                <div class="col-sm-10">
+                                    <input type="file" class="form-control" id="basic-default-name" placeholder="VehicleImage" asp-for="ImageFile" />
+                                    <span asp-validation-for="VehicleImage" class="text-danger"></span>
+                                </div>
+                            </div>
+ *@
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="basic-default-name" asp-for="VehicleName">VehicleName</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="basic-default-name" placeholder="VehicleName" asp-for="VehicleName" />
+                                    <span asp-validation-for="VehicleName" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="basic-default-name" asp-for="VehicleTypeID">VehicleTypeName</label>
+                                <div class="col-sm-10">
+                                    <select id="inputState" class="form-select" asp-for="VehicleTypeID" asp-items="@(new SelectList(ViewBag.school,"VehicleTypeID","VehicleTypeName"))">
+                                        <option disabled selected>Select VehicleTypeName</option>
+                                    </select>
+                                    <span asp-validation-for="VehicleName" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="basic-default-phone" asp-for="RegistrationNumber">Registration No</label>
+                                <div class="col-sm-10">
+                                    <input type="text"
+                                           id="basic-default-phone"
+                                           class="form-control phone-mask"
+                                           placeholder="RegistrationNumber"
+                                           aria-describedby="basic-default-phone"
+                                           asp-for="RegistrationNumber" />
+                                    <Span asp-validation-for="RegistrationNumber" class="text-danger"></Span>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="basic-default-phone" asp-for="NumberOfPassenger">NumberOfPassenger</label>
+                                <div class="col-sm-10">
+                                    <input type="text"
+                                           id="basic-default-phone"
+                                           class="form-control phone-mask"
+                                           placeholder="NumberOfPassenger"
+                                           aria-describedby="basic-default-phone"
+                                           asp-for="NumberOfPassenger" />
+                                    <Span asp-validation-for="NumberOfPassenger" class="text-danger"></Span>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="basic-default-name" asp-for="Status">status</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="basic-default-name" placeholder="Status" asp-for="Status" />
+                                    <span asp-validation-for="Status" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="basic-default-phone" asp-for="ChargePerKM">ChargePerDAY</label>
+                                <div class="col-sm-10">
+                                    <input type="text"
+                                           id="basic-default-phone"
+                                           class="form-control phone-mask"
+                                           placeholder="ChargePerKM"
+                                           aria-describedby="basic-default-phone"
+                                           asp-for="ChargePerKM" />
+                                    <Span asp-validation-for="ChargePerKM" class="text-danger"></Span>
+                                </div>
+                            </div>
+                            <div class="row justify-content-end">
+                                <div class="col-sm-10">
+                                    <button type="submit" asp-area="LOC_Vehicles" asp-controller="AdminVehicles" asp-action="Save" class="btn btn-primary"> Save</button>
+                                    <a asp-area="LOC_Vehicles" asp-controller="AdminVehicles" asp-action="AdminVehiclesList" class="btn btn-info">Back to List</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            @section Scripts {
+                @{
+                    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+                }
+            }

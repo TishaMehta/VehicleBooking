@@ -1,0 +1,189 @@
+﻿@model IEnumerable<VehicleBooking.Areas.LOC_Vehicles.Models.AdminVehiclesModel>
+
+@{
+    ViewData["Title"] = "AdminVehiclesList";
+}
+
+@if (TempData["Message"] != null)
+{
+    <div id="Feature-alert" class="alert alert-success color-success">
+        <i class="bi bi-check-circle"></i> @TempData["Message"]
+    </div>
+
+    <script>
+        setTimeout(function () {
+            $('#Feature-alert').fadeOut('fast');
+        }, 2000); // 2 seconds
+    </script>
+}
+<h2>AdminVehiclesList</h2>
+
+<form class="d-flex w-75" role="search" asp-area="LOC_Vehicles" asp-controller="AdminVehicles" asp-action="AdminVehiclesList">
+    <input class="form-control me-2 " type="text" placeholder="Vehicles Name" aria-label="Search" name="VehicleName">
+    <input class="form-control me-2 " type="text" placeholder="VehicleType Name" aria-label="Search" name="VehicleTypeName">
+
+    <button class="btn btn-outline-success" type="submit">Search</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+</form>
+<div class="Card mt-2">
+    <input id="new_1" type="search" placeholder="Search Vehicles" class="form-control" aria-controls="Sample_1" />
+</div>
+</br>
+<div>
+    <a asp-area="LOC_Vehicles" asp-controller="AdminVehicles" asp-action="Edit" class="btn rounded-pil btn-primary">
+        <div data-i18n="Notifications">VehiclesAdd/Edit</div>
+    </a>
+</div>
+</br>
+<div class="card">
+    <div class="table-responsive text-nowrap">
+        <div class="container-fluid">
+            <div class="mt-2"><h5>Vehicles Search</h5></div>
+
+
+        </div>
+
+        <table class="table table-striped">
+
+            <thead>
+                <tr>
+                    @*   <th>
+                    @Html.DisplayNameFor(model => model.VehicleId)
+                    </th> *@
+                    @*  <th>
+                    @Html.DisplayNameFor(model => model.VehicleImage)
+
+                    </th>
+                    *@
+                    <th>
+                        @Html.DisplayNameFor(model => model.VehicleName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.VehicleTypeName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.RegistrationNumber)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NumberOfPassenger)
+                    </th>
+
+                   @*  <th>
+                        @Html.DisplayNameFor(model => model.Status)
+                    </th> *@
+                    <th>
+                        ChargePerDay
+                    </th>
+                   @*  <th>
+                        @Html.DisplayNameFor(model => model.Created)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Modified)
+                    </th> *@
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <tbody class="table-border-bottom-0" id="new_2">
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        @*   <td>
+                    @Html.DisplayFor(modelItem => item.VehicleId)
+                    </td> *@
+                        @*   <td>
+                    <img src="~/Vehicle/@item.VehicleImage" alt="Vehicle Image" class="card-img-top">
+                    @Html.DisplayFor(modelItem => item.VehicleImage)
+                    </td>
+                    *@
+                        <td>
+                            @Html.DisplayFor(modelItem => item.VehicleName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.VehicleTypeName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RegistrationNumber)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NumberOfPassenger)
+                        </td>
+                      @*   <td>
+                            @Html.DisplayFor(modelItem => item.Status)
+                        </td> *@
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ChargePerKM)
+                        </td>
+                        @* <td>
+                            @Html.DisplayFor(modelItem => item.Created)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Modified)
+                        </td> *@
+                        @* <td>
+                    <div class="dropdown">
+                    <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                    <i class="bx bx-dots-vertical-rounded"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                    <a class="dropdown-item" href="javascript:void(0);">
+                    @Html.ActionLink("Edit", "Edit", new {  id=item.VehicleId  })
+                    </a>
+                    <a class="dropdown-item" href="javascript:void(0);">
+                    @Html.ActionLink("AdminVehiclesID", "AdminVehiclesID", new {  id=item.VehicleId  })
+                    </a>
+                    <a class="dropdown-item" href="javascript:void(0);">
+                    @Html.ActionLink("Delete", "AdminVehicleDelete", new {  id=item.VehicleId  })
+                    </a>
+                    </div>
+                    </div>
+                    </td>
+                    *@
+
+                        <td>
+                            <button>
+                                <a href="@Url.Action("Edit", new { id = item.VehicleId })" class="text-primary">
+                                    <i class="bx bx-edit-alt me-1 "></i>
+                                </a>
+                            </button>
+                            <button>
+
+                                <a href="@Url.Action("AdminVehicleDelete", new { id = item.VehicleId })" class="text-danger" onclick="return confirm('Are you sure you want to delete record?')">
+                                    <i class="bx bx-trash"></i>
+                                </a>
+                            </button>
+                            @*   <button>
+
+                        <a href="@Url.Action("AdminVehiclesID", new { id = item.VehicleId })" class="text-danger" >
+                        <i class="bx bx-trash"></i>
+                        </a>
+                        </button> *@
+                        </td>
+
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+            $("#new_1").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#new_2 tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                });
+            });
+        });
+
+    </script>
+}

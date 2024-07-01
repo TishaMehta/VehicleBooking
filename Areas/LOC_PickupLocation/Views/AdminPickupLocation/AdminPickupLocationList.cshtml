@@ -1,0 +1,121 @@
+﻿@model IEnumerable<VehicleBooking.Areas.LOC_PickupLocation.Models.AdminPickupLocationModel>
+
+@{
+    ViewData["Title"] = "AdminPickupLocationList";
+}
+
+@if (TempData["Message"] != null)
+{
+    <div id="Feature-alert" class="alert alert-success color-success">
+        <i class="bi bi-check-circle"></i> @TempData["Message"]
+    </div>
+
+    <script>
+        setTimeout(function () {
+            $('#Feature-alert').fadeOut('fast');
+        }, 2000); // 2 seconds
+    </script>
+}
+<h2>AdminLocationList</h2>
+<form method="get" class="d-flex w-75 mt-2" action="@Url.Action("AdminPickupLocationList", "AdminPickupLocation", new { area = "LOC_PickupLocation" })">
+    @*             <label for="pickupLocationCodeFilter">Pickup Location Code:</label>
+    *@            <input class="form-control me-2 " type="text" placeholder="PikupLocationCode" name="pickupLocationCodeFilter" value="@ViewBag.PickupLocationCodeFilter" />
+
+    @*             <label for="pickupLocationNameFilter">Pickup Location Name:</label>
+    *@            <input class="form-control me-2" type="text" placeholder="PickupLocationName" name="pickupLocationNameFilter" value="@ViewBag.PickupLocationNameFilter" />
+
+    <input class="btn btn-outline-success" type="submit" value="Search" />
+</form>
+<div class="Card mt-2">
+    <input id="new_1" type="search" placeholder="Search User" class="form-control" aria-controls="Sample_1" />
+</div>
+</br>
+@* <a class="btn btn-outline-success" asp-area="LOC_PickupLocation" aspcontroller="AdminPickupLocation" asp-action="ExportData">
+    <i class="fa-solid fa-file-excel"></i><span> Export Excel</span>
+</a> *@
+<div>
+    <a asp-area="LOC_PickupLocation" asp-controller="AdminPickupLocation" asp-action="Edit" class="btn rounded-pil btn-primary">
+        <div data-i18n="Notifications">LocationAdd/Edit</div>
+    </a>
+</div>
+</br>
+<div class="card">
+    <div class="table-responsive text-nowrap">
+        <div class="container-fluid">
+
+
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    @*  <th>
+                    @Html.DisplayNameFor(model => model.PickupLocationID)
+                    </th> *@
+                    <th>
+                        LocationName
+                    </th>
+                    <th>
+                        LocationCode
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Created)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Modified)
+                    </th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0" id="new_2">
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        @*
+                    <td>
+                    @Html.DisplayFor(modelItem => item.PickupLocationID)
+                    </td> *@
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PickupLocationName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PickupLocationCode)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Created)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Modified)
+                        </td>
+                        <td>
+                            <button>
+                                <a href="@Url.Action("Edit", new { id = item.PickupLocationID })" class="text-primary">
+                                    <i class="bx bx-edit-alt me-1 "></i>
+                                </a>
+                            </button>
+                            <button class="deleteButton" data-id="@item.PickupLocationID">
+                                <a href="@Url.Action("AdminPickupLocationDelete", new { id = item.PickupLocationID })" class="text-danger" onclick="return confirm('Are you sure you want to delete record?')">
+                                    <i class="bx bx-trash"></i>
+                                </a>
+                            </button>
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+            $("#new_1").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#new_2 tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                });
+            });
+        });
+
+    </script>
+}

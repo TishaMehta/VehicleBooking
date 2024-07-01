@@ -1,0 +1,137 @@
+﻿@model VehicleBooking.Areas.LOC_Payment.Models.AdminPaymentModel
+
+@{
+    ViewData["Title"] = "Save";
+}
+
+
+@* <h2>Add/Edit Payment</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-area="LOC_Payment" asp-controller="AdminPayment" asp-action="Save">
+            <div asp-validation-for="All" class="text-danger"></div>
+            @Html.HiddenFor(X=>X.PaymentID)
+
+             <div class="form-group">
+                <label asp-for="BookingID" class="control-label"></label>
+                <input asp-for="BookingID" class="form-control" required/>
+                <span asp-validation-for="BookingID" class="text-danger"></span>
+            </div>
+
+         @*    <div class="form-group">
+                <label for="inputState">VehicleType Name</label>
+                <select id="inputState" class="form-select" asp-for="BookingID" asp-items="@(new SelectList( ViewBag.school,"BookingID"))">
+                    <option disabled selected>Select VehicleTypeName</option>
+                </select>
+                <span asp-validation-for="BookingID" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Amount" class="control-label"></label>
+                <input asp-for="Amount" class="form-control" required/>
+                <span asp-validation-for="Amount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PaymentDate" class="control-label"></label>
+                <input asp-for="PaymentDate" class="form-control" required/>
+                <span asp-validation-for="PaymentDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PaymentStatus" class="control-label"></label>
+                <input asp-for="PaymentStatus" class="form-control" required/>
+                <span asp-validation-for="PaymentStatus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PaymentMethod" class="control-label"></label>
+                <input asp-for="PaymentMethod" class="form-control" required/>
+                <span asp-validation-for="PaymentMethod" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <button asp-area="LOC_Payment" asp-controller="AdminPayment" asp-action="Save" class="btn btn-primary"> Save</button>
+                <a asp-area="LOC_Payment" asp-controller="AdminPayment" asp-action="AdminPaymentList" class="btn btn-info">Back to List</a>
+
+            </div>
+        </form>
+    </div>
+</div>
+ *@
+<div class="content-wrapper">
+    <!-- Content -->
+
+    <div class="container-xxl flex-grow-1 container-p-y">
+        <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Payment/</span> PaymentAdd/Edit</h4>
+
+        <!-- Basic Layout & Basic with Icons -->
+        <div class="row">
+            <!-- Basic Layout -->
+            <div class="col-xxl">
+                <div class="card mb-4">
+                    <div class="card-header d-flex align-items-center justify-content-between">
+                        <h5 class="mb-0"> </h5>
+                        <small class="text-muted float-end"> </small>
+                    </div>
+                    <div class="card-body">
+                        <form asp-area="LOC_VehicleType" asp-controller="AdminVehicleType" asp-action="Save">
+                            @Html.HiddenFor(X => X.PaymentID)
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="basic-default-name" asp-for="BookingID">BookingID</label>
+                                <div class="col-sm-10">
+                                    <select id="inputState" class="form-select" asp-for="BookingID" asp-items="@(new SelectList( ViewBag.school,"BookingID","BookingID"))">
+                                        <option disabled selected>Select bookingID</option>
+                                    </select>
+                                    <span asp-validation-for="BookingID" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="basic-default-name" asp-for="Amount">Amount</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="basic-default-name" placeholder="Amount" asp-for="Amount" />
+                                    <span asp-validation-for="Amount" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="basic-default-name" asp-for="PaymentDate">PaymentDate</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="basic-default-name" placeholder="PaymentDate" asp-for="PaymentDate" />
+                                    <span asp-validation-for="PaymentDate" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="basic-default-name" asp-for="PaymentStatus">PaymentStatus</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="basic-default-name" placeholder="PaymentStatus" asp-for="PaymentStatus" />
+                                    <span asp-validation-for="PaymentStatus" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="basic-default-name" asp-for="PaymentMethod">PaymentMethod</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="basic-default-name" placeholder="PaymentMethod" asp-for="PaymentMethod" />
+                                    <span asp-validation-for="PaymentMethod" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                            <div class="row justify-content-end">
+                                <div class="col-sm-10">
+                                    <button asp-area="LOC_Payment" asp-controller="AdminPayment" asp-action="Save" class="btn btn-primary"> Save</button>
+                                    <a asp-area="LOC_Payment" asp-controller="AdminPayment" asp-action="AdminPaymentList" class="btn btn-info">Back to List</a>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

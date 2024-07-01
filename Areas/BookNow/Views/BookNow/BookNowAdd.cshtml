@@ -1,0 +1,92 @@
+﻿@using VehicleBooking.BAL
+  @model VehicleBooking.Areas.BookNow.Models.BookNowModels
+
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title" id="gridSystemModalLabel">Book Now</h4>
+        </div>
+
+        <div class="modal-body">
+            <form asp-area="LOC_Booking" asp-controller="AdminBooking" asp-action="Save" id="contact-form">
+                @Html.HiddenFor(X => X.BookingID)
+                <div class="row mb-3">
+                    <label class="col-sm-4 col-form-label" for="basic-default-name" asp-for="FirstName">UserName  :</label>
+
+                    <div class="col-sm-10">
+
+                       @*  <select id="inputState1" class="form-select" asp-for="UserID" asp-items="@(new SelectList( ViewBag.userDrops,"UserID","FirstName"))">
+                            <option disabled selected>Select FirstName</option>
+                        </select> *@
+                        <input type="text" value="@CommanVerables.FirstName()" class="form-control" disabled id="basic-default-name" placeholder="FirstName" asp-for="FirstName" />
+                        <input type="hidden" value="@CommanVerables.UserID()" asp-for="UserID" />
+                        <span asp-validation-for="UserID" class="text-danger"></span>
+                    </div>
+                </div>
+                </br>
+                <div class="row mb-3">
+                    <label class="col-sm-4 col-form-label" for="basic-default-name" asp-for="VehicleID">VehicleName :</label>
+
+                    <div class="col">
+
+                        <select id="inputState" class="form-control" asp-for="VehicleID" asp-items="@(new SelectList( ViewBag.vehicleDrops,"VehicleID","VehicleName"))">
+                            <option disabled selected>Select VehicleName</option>
+                        </select>
+                        <span asp-validation-for="VehicleID" class="text-danger"></span>
+
+                    </div>
+                </div>
+                </br>
+                <div class="row mb-3">
+                    <label class="col-sm-4 col-form-label" for="basic-default-name" asp-for="PickupLocationID">PickupLocationName :</label>
+                    <div class="col">
+
+                        <select id="inputState" class="form-control" asp-for="PickupLocationID" asp-items="@(new SelectList(ViewBag.pickupLocationDrops,"PickupLocationID","PickupLocationName"))">
+                            <option disabled selected>Select PickupLocation</option>
+                        </select>
+                        <span asp-validation-for="PickupLocationName" class="text-danger"></span>
+                        </div>
+                </div>
+                </br>
+                <div class="row md-3">
+                    <label class="col-sm-4 col-form-label" for="basic-default-name" asp-for="DropOffLocationID">DropOffLocationName :</label>
+
+                    <div class="col">
+
+                        <select id="inputState" class="form-control" asp-for="DropOffLocationID" asp-items="@(new SelectList( ViewBag.dropoffLocationDrops,"DropOffLocationID","DropOffLocationName"))">
+                            <option disabled selected>Select DropoffLocationName</option>
+                        </select>
+                        <span asp-validation-for="DropOffLocationID"></span>
+                    </div>
+                </div>
+                </br>
+                
+                
+                <div class="row mb-3">
+                    <label class="col-sm-4 col-form-label" for="basic-default-name" asp-for="PickupDate">PickupDate :</label>
+
+                    <div class="col">
+                        <input type="date" class="form-control" asp-for="PickupDate" />
+                        <span asp-validation-for="PickupDate" class="text-danger"></span>
+                    </div>
+                </div>
+                </br>
+                <div class="row mb-3">
+                    <label class="col-sm-4 col-form-label" for="basic-default-name" asp-for="DropOffDate">DropOffDate :</label>
+
+                    <div class="col">
+                        <input type="date" class="form-control" asp-for="DropOffDate" />
+                        <span asp-validation-for="DropOffDate" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" asp-area="BookNow" asp-controller="BookNow" asp-action="Save" class="section-btn btn btn-primary">Book Now</button>
+                    <button type="submit" asp-area="Fleet" asp-controller="Fleet" asp-action="FleetList" class="section-btn btn btn-primary">Back</button>
+
+                </div>
+            </form>
+        </div>
+
+     
+    </div>
+</div>

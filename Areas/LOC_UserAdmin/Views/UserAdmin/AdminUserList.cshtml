@@ -1,0 +1,184 @@
+﻿@model IEnumerable<VehicleBooking.Areas.LOC_UserAdmin.Models.UserAdminModel>
+
+@{
+    ViewData["Title"] = "AdminUserList";
+}
+
+@if (TempData["Message"] != null)
+{
+    <div id="Feature-alert" class="alert alert-success color-success">
+        <i class="bi bi-check-circle"></i> @TempData["Message"]
+    </div>
+
+    <script>
+        setTimeout(function () {
+            $('#Feature-alert').fadeOut('fast');
+        }, 2000); // 2 seconds
+    </script>
+}
+<h2>AdminUserList</h2>
+
+
+<form class="d-flex w-75" role="search" method="get" asp-area="LOC_UserAdmin" asp-controller="UserAdmin" asp-action="AdminUserList">
+    <input class="form-control me-2 " type="text" placeholder="First Name" aria-label="Search" name="FirstName">
+    <input class="form-control me-2 " type="text" placeholder="Last Name" aria-label="Search" name="LastName">
+    <input class="form-control me-2 " type="text" placeholder="Email" aria-label="Search" name="Email">
+    <input class="form-control me-2 " type="text" placeholder="PhoneNumber" aria-label="Search" name="PhoneNumber">
+    <input class="form-control me-2 " type="text" placeholder="Address" aria-label="Search" name="Address">
+
+    <button class="btn btn-outline-success" type="submit">Search</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
+</form>
+
+<div class="mt-2 card">
+    <input id="new_1" type="search" placeholder="Search User" class="form-control" aria-controls="Sample_1" />
+</div>
+</br>
+<div>
+    <a asp-area="LOC_UserAdmin" asp-controller="UserAdmin" asp-action="Edit" class="btn rounded-pil btn-primary">
+        UserAdd/Edit
+    </a>
+</div>
+</br>
+<!-- Striped Rows -->
+<div class="card">
+    <div class="table-responsive text-nowrap">
+        <div class="container-fluid">
+        </div>
+
+
+        <div class="card" ">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+
+
+                        <th>
+        @Html.DisplayNameFor(model => model.FirstName)
+                        </th>
+                        <th>
+        @Html.DisplayNameFor(model => model.LastName)
+                        </th>
+                        <th>
+        @Html.DisplayNameFor(model => model.Email)
+                        </th>
+                        <th>
+        @Html.DisplayNameFor(model => model.PhoneNumber)
+                        </th>
+                        <th>
+        @Html.DisplayNameFor(model => model.Address)
+                        </th>
+                        <th>
+        @Html.DisplayNameFor(model => model.Password)
+                        </th>
+                        <th>
+        @Html.DisplayNameFor(model => model.IsAdmin)
+                        </th>
+                        <th>Actions</th>
+        @*                 <th>
+                        @Html.DisplayNameFor(model => model.Created)
+                        </th>
+                        <th>
+                        @Html.DisplayNameFor(model => model.Modified)
+                        </th>
+                        *@
+                    </tr>
+                </thead>
+                <tbody class="table-border-bottom-0" id="new_2">
+        @foreach (var item in Model)
+        {
+                        <tr>
+                @*     <td>
+                        @Html.DisplayFor(modelItem => item.UserID)
+                        </td> *@
+                            <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+
+                            </td>
+                            <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+
+                            </td>
+                            <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                            </td>
+                            <td>
+                    @Html.DisplayFor(modelItem => item.PhoneNumber)
+                            </td>
+                            <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                            </td>
+                            <td>
+                    @Html.DisplayFor(modelItem => item.Password)
+                            </td>
+                            <td>
+                    @(item.IsAdmin ? "true" : "false")
+                            </td>
+                @*                          <td>
+                        @Html.DisplayFor(modelItem => item.Created)
+                        </td>
+                        <td>
+                        @Html.DisplayFor(modelItem => item.Modified)
+                        </td>
+                        *@             @* <td>
+                        <div class="dropdown">
+                        <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                        <i class="bx bx-dots-vertical-rounded"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                        <a class="dropdown-item" href="javascript:void(0);">
+                        @Html.ActionLink("Edit", "Edit", new { id=item.UserID  })
+                        </a>
+                        <a class="dropdown-item" href="javascript:void(0);">
+                        @Html.ActionLink("AdminUserID", "AdminUserID", new {  id=item.UserID  })
+                        </a>
+                        <a class="dropdown-item" href="javascript:void(0);">
+                        @Html.ActionLink("Delete", "AdminUserDelete", new {  id=item.UserID  })
+                        </a>
+                        </div>
+                        </div>
+                        </td> *@
+                            <td>
+                                <button>
+                                    <a href="@Url.Action("Edit", new { id = item.UserID })" class="text-primary">
+                                        <i class="bx bx-edit-alt me-1 "></i>
+                                    </a>
+                                </button>
+                                <button class="deleteButton" data-id="@item.UserID">
+                                    <a href="@Url.Action("AdminUserDelete", new { id = item.UserID })" class="text-danger" onclick="return confirm('Are you sure you want to delete record?')">
+                                        <i class="bx bx-trash"></i>
+                                    </a>
+
+                                </button>
+
+
+
+                            </td>
+                        </tr>
+
+        }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--/ Striped Rows -->
+        @section Scripts
+   {
+    <script>
+        $(document).ready(function () {
+            $("#new_1").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#new_2 tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                });
+            });
+        });
+
+    </script>
+        }
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>

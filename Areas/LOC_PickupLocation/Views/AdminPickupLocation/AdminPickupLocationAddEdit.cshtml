@@ -1,0 +1,104 @@
+﻿@model VehicleBooking.Areas.LOC_PickupLocation.Models.AdminPickupLocationModel
+
+@{
+    ViewData["Title"] = "Save";
+}
+
+@* <div class="row">
+    <div class="col-md-4">
+        <form asp-area="LOC_PickupLocation" asp-controller="AdminPickupLocation" asp-action="Save">
+            <div asp-validation-for="All" class="text-danger"></div>
+            @Html.HiddenFor(X=>X.PickupLocationID)
+
+            <div class="form-group">
+                <label asp-for="PickupLocationName" class="control-label">PickupLocation Name</label>
+                <input asp-for="PickupLocationName" class="form-control"/>
+                <span asp-validation-for="PickupLocationName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PickupLocationCode" class="control-label"></label>
+                <input asp-for="PickupLocationCode" class="form-control"/>
+                <span asp-validation-for="PickupLocationCode" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <button asp-area="LOC_PickupLocation" asp-controller="AdminPickupLocation" asp-action="Save" class="btn btn-primary"> Save</button>
+                <a asp-area="LOC_PickupLocation" asp-controller="AdminPickupLocation" asp-action="AdminPickupLocationList" class="btn btn-info">Back to List</a>
+
+            </div>
+        </form>
+    </div>
+</div> *@ 
+<div class="content-wrapper">
+    <!-- Content -->
+
+    <div class="container-xxl flex-grow-1 container-p-y">
+        <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">VehicleType/</span> VehicleTypeAdd/Edit</h4>
+
+        <!-- Basic Layout & Basic with Icons -->
+        <div class="row">
+            <!-- Basic Layout -->
+            <div class="col-xxl">
+                <div class="card mb-4">
+                    <div class="card-header d-flex align-items-center justify-content-between">
+                        <h5 class="mb-0"> </h5>
+                        <small class="text-muted float-end"> </small>
+                    </div>
+                    <div class="card-body">
+                        <form asp-area="LOC_VehicleType" asp-controller="AdminVehicleType" asp-action="Save">
+                            @Html.HiddenFor(X => X.PickupLocationID)
+
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="basic-default-name" asp-for="PickupLocationName">LocationName</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="basic-default-name" placeholder="LocationName" asp-for="PickupLocationName" />
+                                    <span asp-validation-for="PickupLocationName" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="basic-default-name" asp-for="PickupLocationCode">LocationCode</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="basic-default-name" placeholder="LocationCode" asp-for="PickupLocationCode" />
+                                    <span asp-validation-for="PickupLocationCode" class="text-danger"></span>
+
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-end">
+                                <div class="col-sm-10">
+                                    <button asp-area="LOC_PickupLocation" asp-controller="AdminPickupLocation" asp-action="Save" class="btn btn-primary"> Save</button>
+                                    <a asp-area="LOC_PickupLocation" asp-controller="AdminPickupLocation" asp-action="AdminPickupLocationList" class="btn btn-info">Back to List</a>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+
+    <partial name="_ValidationScriptsPartial" />
+    }
+@* 
+<div>
+  <form asp-area="LOC_PickupLocation" asp-controller="AdminPickupLocation" asp-action="Save">
+        <thead>
+            @Html.HiddenFor(X => X.PickupLocationID)
+
+            <tr>
+        <input asp-for="PickupLocationName" />
+        <span asp-validation-for="PickupLocationName"></span>
+        </tr>
+            <tr>
+                <input asp-for="PickupLocationCode" />
+                <span asp-validation-for="PickupLocationCode"></span>
+            </tr>
+            <tr>
+            <button asp-area="LOC_PickupLocation" asp-controller="AdminPickupLocation" asp-action="Save"> Save</button>
+            <a asp-area="LOC_PickupLocation" asp-controller="AdminPickupLocation" asp-action="AdminPickupLocationList">Back to List</a>
+            </tr>
+    </thead>
+</form></div>  *@

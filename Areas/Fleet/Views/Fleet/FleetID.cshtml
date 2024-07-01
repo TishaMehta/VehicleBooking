@@ -1,0 +1,173 @@
+﻿ @model VehicleBooking.Areas.Fleet.Models.FleetModel
+@* <div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <div class="courses-image">
+                <img src="~/assets1/images/product-5-750x480.jpg" class="img-responsive" alt="">
+            </div>
+        </div>
+        <div class="col-sm">
+            <div>
+                <dl class="row-md-4">
+                    <dt class="col-sm-5">
+                        @Html.DisplayNameFor(model => model.VehicleName)  :
+                    </dt>
+                    <dd class="col-sm-5 ">
+                        @Html.DisplayFor(model => model.VehicleName)
+                    </dd>
+                    <dt class="col-sm-5">
+                        @Html.DisplayNameFor(model => model.VehicleTypeName)  :
+                    </dt>
+                    <dd class="col-sm-5">
+                        @Html.DisplayFor(model => model.VehicleTypeName)
+                    </dd>
+                    <dt class="col-sm-5">
+                        @Html.DisplayNameFor(model => model.RegistrationNumber)  :
+                    </dt>
+                    <dd class="col-sm-5">
+                        @Html.DisplayFor(model => model.RegistrationNumber)
+                    </dd>
+                    <dt class="col-sm-5">
+                        @Html.DisplayNameFor(model => model.NumberOfPassenger)  :
+                    </dt>
+                    <dd class="col-sm-5">
+                        @Html.DisplayFor(model => model.NumberOfPassenger)
+                    </dd>
+                    <dt class="col-sm-5">
+                        @Html.DisplayNameFor(model => model.Status)  :
+                    </dt>
+                    <dd class="col-sm-5">
+                        @Html.DisplayFor(model => model.Status)
+                    </dd>
+                    <dt class="col-sm-5">
+                        @Html.DisplayNameFor(model => model.ChargePerKM)  :
+                    </dt>
+                    <dd class="col-sm-5">
+                        @Html.DisplayFor(model => model.ChargePerKM)
+                    </dd>
+                    <style>
+                        dt, dd {
+                            margin-bottom: 40px; /* You can adjust this value based on your preference */
+                        }
+                    </style>
+                </dl>
+            </div>
+            <div class="row-md-5">
+                <button type="button" onclick="location.href='@Url.Action("FleetList")'" class="section-btn btn btn-primary" ">Back to List</button>
+            </div>
+        </div>
+    </div>
+</div> *@
+@* <div class="table">
+    <div class="row">
+        <div class="col-sm" style="float:left">
+            <img src="~/assets1/images/product-5-750x480.jpg" class="img-fluid" alt="">
+        </div>
+
+
+        <div class="col-sm" style="float:right">
+            <div>
+                <dl class="row-md-4">
+                    <dt class="col-sm-5">
+                        @Html.DisplayNameFor(model => model.VehicleName)  :
+                    </dt>
+                    <dd class="col-sm-5 ">
+                        @Html.DisplayFor(model => model.VehicleName)
+                    </dd>
+                    <dt class="col-sm-5">
+                        @Html.DisplayNameFor(model => model.VehicleTypeName)  :
+                    </dt>
+                    <dd class="col-sm-5">
+                        @Html.DisplayFor(model => model.VehicleTypeName)
+                    </dd>
+                    <dt class="col-sm-5">
+                        @Html.DisplayNameFor(model => model.RegistrationNumber)  :
+                    </dt>
+                    <dd class="col-sm-5">
+                        @Html.DisplayFor(model => model.RegistrationNumber)
+                    </dd>
+                    <dt class="col-sm-5">
+                        @Html.DisplayNameFor(model => model.NumberOfPassenger)  :
+                    </dt>
+                    <dd class="col-sm-5">
+                        @Html.DisplayFor(model => model.NumberOfPassenger)
+                    </dd>
+                    <dt class="col-sm-5">
+                        @Html.DisplayNameFor(model => model.Status)  :
+                    </dt>
+                    <dd class="col-sm-5">
+                        @Html.DisplayFor(model => model.Status)
+                    </dd>
+                    <dt class="col-sm-5">
+                        @Html.DisplayNameFor(model => model.ChargePerKM)  :
+                    </dt>
+                    <dd class="col-sm-5">
+                        @Html.DisplayFor(model => model.ChargePerKM)
+                    </dd>
+                    <style>
+                        dt, dd {
+                            margin-bottom: 40px; /* You can adjust this value based on your preference */
+                        }
+                    </style>
+                </dl>
+            </div>
+            <div class="row-md-5">
+                <button type="button" onclick="location.href='@Url.Action("FleetList")'" class="section-btn btn btn-primary" ">Back to List</button>
+            </div>
+        </div>
+    </div>
+</div> *@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Layout</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.5/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        dt, dd {
+            margin-bottom: 40px; /* You can adjust this value based on your preference */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="card">
+            <div class="row">
+                <!-- Image part -->
+                <div class="col-sm-8" style="float:left">
+                    <img src="~/assets1/images/product-2-720x480.jpg" class="img-fluid" alt="">
+                </div>
+                <!-- Data part -->
+                <div class="col-sm-4" style="float:right">
+                    <div>
+                        <dl class="row-md-4">
+                            <dt class="col-sm-5">@Html.DisplayNameFor(model => model.VehicleName):</dt>
+                            <dd class="col-sm-5">@Html.DisplayFor(model => model.VehicleName)</dd>
+                            <dt class="col-sm-5">@Html.DisplayNameFor(model => model.VehicleTypeName):</dt>
+                            <dd class="col-sm-5">@Html.DisplayFor(model => model.VehicleTypeName)</dd>
+                            <dt class="col-sm-5">@Html.DisplayNameFor(model => model.RegistrationNumber):</dt>
+                            <dd class="col-sm-5">@Html.DisplayFor(model => model.RegistrationNumber)</dd>
+                            <dt class="col-sm-5">@Html.DisplayNameFor(model => model.NumberOfPassenger):</dt>
+                            <dd class="col-sm-5">@Html.DisplayFor(model => model.NumberOfPassenger)</dd>
+                            <dt class="col-sm-5">@Html.DisplayNameFor(model => model.Status):</dt>
+                            <dd class="col-sm-5">@Html.DisplayFor(model => model.Status)</dd>
+                            <dt class="col-sm-5">ChargePerDay:</dt>
+                            <dd class="col-sm-5">@Html.DisplayFor(model => model.ChargePerKM)</dd>
+                        </dl>
+                    </div>
+                    <div class="row-md-5">
+                        <button type="button" onclick="location.href='@Url.Action("FleetList")'" class="section-btn btn btn-primary">Back to List</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.5/js/bootstrap.min.js"></script>
+
+</body>
+</html>

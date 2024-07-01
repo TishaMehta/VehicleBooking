@@ -1,0 +1,104 @@
+﻿@model IEnumerable<VehicleBooking.Areas.LOC_DropoffLocation.Models.AdminDropoffLocationModel>
+
+@{
+    ViewData["Title"] = "AdminDropoffLocationList";
+}
+
+@if (TempData["Message"] != null)
+{
+    <div id="Feature-alert" class="alert alert-success color-success">
+        <i class="bi bi-check-circle"></i> @TempData["Message"]
+    </div>
+
+    <script>
+        setTimeout(function () {
+            $('#Feature-alert').fadeOut('fast');
+        }, 2000); // 2 seconds
+    </script>
+}
+<h2>AdminDropoffLocationList</h2>
+<form class="d-flex w-75" role="search" asp-area="LOC_DropoffLocation" asp-controller="AdminDropoffLocation" asp-action="AdminDropoffLocationList">
+    <input class="form-control me-2 " type="text" placeholder="DropoffLocation Name" aria-label="Search" name="DropoffLocationName">
+    <input class="form-control me-2 " type="text" placeholder="DropoffLocation Code" aria-label="Search" name="DropoffLocationCode">
+
+    <button class="btn btn-outline-success" type="submit">Search</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+</form>
+<div class="Card mt-2">
+    <input id="new_1" type="search" placeholder="Search DropoffLocation" class="form-control" aria-controls="Sample_1" />
+</div>
+</br>
+<div>
+    <a asp-area="LOC_DropoffLocation" asp-controller="AdminDropoffLocation" asp-action="Edit" class="btn rounded-pil btn-primary">
+        <div data-i18n="Notifications">DropoffLocationAdd/Edit</div>
+    </a>
+</div>
+<div class="card">
+    <div class="table-responsive text-nowrap">
+        <div class="container-fluid">
+
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DropoffLocationID)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DropoffLocationName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DropoffLocationCode)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Created)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Modified)
+                        </th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody class="table-border-bottom-0" id="new_2">
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DropoffLocationID)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DropoffLocationName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DropoffLocationCode)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Created)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Modified)
+                            </td>
+
+
+                            <td>
+                                <button>
+                                    <a href="@Url.Action("Edit", new { id = item.DropoffLocationID })" class="text-primary">
+                                        <i class="bx bx-edit-alt me-1 "></i>
+                                    </a>
+                                </button>
+                                <button class="deleteButton" data-id="@item.DropoffLocationID">
+                                    <a href="@Url.Action("AdminDropoffLocationDelete", new { id = item.DropoffLocationID })" class="text-danger" onclick="return confirm('Are you sure you want to delete record?')">
+                                        <i class="bx bx-trash"></i>
+                                    </a>
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

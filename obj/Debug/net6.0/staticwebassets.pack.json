@@ -1,0 +1,1641 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\VehicleBooking.bundle.scp.css",
+      "PackagePath": "staticwebassets\\VehicleBooking.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\css\\main.css",
+      "PackagePath": "staticwebassets\\LoginLayout\\css\\main.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\css\\util.css",
+      "PackagePath": "staticwebassets\\LoginLayout\\css\\util.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\animated.less",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\animated.less"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\core.less",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\core.less"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\icons.less",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\icons.less"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\larger.less",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\larger.less"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\list.less",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\list.less"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\mixins.less"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\path.less",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\path.less"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\stacked.less"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\variables.less",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\less\\variables.less"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_core.scss"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_list.scss"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_path.scss"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\iconic\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\iconic\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\iconic\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\iconic\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\poppins\\Poppins-Black.ttf",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\poppins\\Poppins-Black.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\poppins\\Poppins-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\poppins\\Poppins-BlackItalic.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\poppins\\Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\poppins\\Poppins-Bold.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\poppins\\Poppins-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\poppins\\Poppins-BoldItalic.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\poppins\\Poppins-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\poppins\\Poppins-ExtraBold.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\poppins\\Poppins-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\poppins\\Poppins-ExtraLight.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\poppins\\Poppins-Italic.ttf",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\poppins\\Poppins-Italic.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\poppins\\Poppins-Light.ttf",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\poppins\\Poppins-Light.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\poppins\\Poppins-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\poppins\\Poppins-LightItalic.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\poppins\\Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\poppins\\Poppins-Medium.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\poppins\\Poppins-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\poppins\\Poppins-MediumItalic.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\poppins\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\poppins\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\poppins\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\poppins\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\poppins\\Poppins-Thin.ttf",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\poppins\\Poppins-Thin.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\fonts\\poppins\\Poppins-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\LoginLayout\\fonts\\poppins\\Poppins-ThinItalic.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\images\\bg-01.jpg",
+      "PackagePath": "staticwebassets\\LoginLayout\\images\\bg-01.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\images\\icons\\favicon.ico",
+      "PackagePath": "staticwebassets\\LoginLayout\\images\\icons\\favicon.ico"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\js\\main.js",
+      "PackagePath": "staticwebassets\\LoginLayout\\js\\main.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\animate\\animate.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\animsition\\css\\animsition.css",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\animsition\\css\\animsition.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\animsition\\css\\animsition.min.css",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\animsition\\css\\animsition.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\animsition\\js\\animsition.js",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\animsition\\js\\animsition.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\animsition\\js\\animsition.min.js",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\animsition\\js\\animsition.min.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\bootstrap\\js\\popper.js",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\bootstrap\\js\\popper.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\bootstrap\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\bootstrap\\js\\popper.min.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\bootstrap\\js\\tooltip.js",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\bootstrap\\js\\tooltip.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\countdowntime\\countdowntime.js",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\countdowntime\\countdowntime.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\css-hamburgers\\hamburgers.css",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\css-hamburgers\\hamburgers.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\css-hamburgers\\hamburgers.min.css",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\css-hamburgers\\hamburgers.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\daterangepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\daterangepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\daterangepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\daterangepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\daterangepicker\\moment.js",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\daterangepicker\\moment.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\daterangepicker\\moment.min.js",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\daterangepicker\\moment.min.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\jquery\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\jquery\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\perfect-scrollbar\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\perfect-scrollbar\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\select2\\select2.css",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\select2\\select2.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\select2\\select2.js",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\select2\\select2.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\select2\\select2.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\LoginLayout\\vendor\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\LoginLayout\\vendor\\select2\\select2.min.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets1\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets1\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\assets1\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\assets1\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets1\\css\\style.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets1\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets1\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets1\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets1\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets1\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets1\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\about-1-720x720.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\about-1-720x720.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\about-2-720x720.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\about-2-720x720.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\author-image-1-646x680.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\author-image-1-646x680.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\author-image-2-646x680.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\author-image-2-646x680.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\author-image-3-646x680.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\author-image-3-646x680.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\author-image-4-646x680.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\author-image-4-646x680.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\blog-1-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\blog-1-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\blog-2-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\blog-2-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\blog-3-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\blog-3-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\blog-4-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\blog-4-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\blog-5-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\blog-5-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\blog-6-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\blog-6-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\contact-1-600x400.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\contact-1-600x400.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\offer-1-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\offer-1-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\offer-2-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\offer-2-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\offer-3-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\offer-3-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\offer-4-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\offer-4-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\offer-5-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\offer-5-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\offer-6-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\offer-6-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\other-1-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\other-1-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\other-2-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\other-2-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\other-3-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\other-3-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\other-4-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\other-4-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\other-5-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\other-5-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\other-6-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\other-6-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\other-image-fullscreen-1-1920x700.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\other-image-fullscreen-1-1920x700.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\product-1-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\product-1-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\product-2-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\product-2-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\product-3-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\product-3-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\product-4-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\product-4-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\product-5-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\product-5-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\product-6-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\product-6-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\slider-image-1-1920x700.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\slider-image-1-1920x700.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\slider-image-2-1920x700.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\slider-image-2-1920x700.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\slider-image-3-1920x700.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\slider-image-3-1920x700.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\tst-image-1-200x216.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\tst-image-1-200x216.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\tst-image-2-200x216.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\tst-image-2-200x216.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\tst-image-3-200x216.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\tst-image-3-200x216.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\images\\tst-image-4-200x216.jpg",
+      "PackagePath": "staticwebassets\\assets1\\images\\tst-image-4-200x216.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets1\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets1\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\assets1\\js\\jquery.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets1\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets1\\js\\smoothscroll.js",
+      "PackagePath": "staticwebassets\\assets1\\js\\smoothscroll.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets2\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets2\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\assets2\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\assets2\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets2\\css\\style.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets2\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\about-1-720x720.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\about-1-720x720.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\about-2-720x720.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\about-2-720x720.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\author-image-1-646x680.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\author-image-1-646x680.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\author-image-2-646x680.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\author-image-2-646x680.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\author-image-3-646x680.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\author-image-3-646x680.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\author-image-4-646x680.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\author-image-4-646x680.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\blog-1-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\blog-1-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\blog-2-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\blog-2-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\blog-3-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\blog-3-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\blog-4-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\blog-4-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\blog-5-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\blog-5-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\blog-6-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\blog-6-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\contact-1-600x400.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\contact-1-600x400.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\offer-1-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\offer-1-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\offer-2-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\offer-2-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\offer-3-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\offer-3-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\offer-4-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\offer-4-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\offer-5-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\offer-5-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\offer-6-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\offer-6-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\other-1-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\other-1-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\other-2-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\other-2-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\other-3-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\other-3-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\other-4-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\other-4-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\other-5-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\other-5-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\other-6-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\other-6-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\other-image-fullscreen-1-1920x700.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\other-image-fullscreen-1-1920x700.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\product-1-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\product-1-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\product-2-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\product-2-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\product-3-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\product-3-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\product-4-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\product-4-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\product-5-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\product-5-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\product-6-720x480.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\product-6-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\slider-image-1-1920x700.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\slider-image-1-1920x700.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\slider-image-2-1920x700.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\slider-image-2-1920x700.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\slider-image-3-1920x700.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\slider-image-3-1920x700.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\tst-image-1-200x216.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\tst-image-1-200x216.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\tst-image-2-200x216.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\tst-image-2-200x216.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\tst-image-3-200x216.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\tst-image-3-200x216.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\images\\tst-image-4-200x216.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\tst-image-4-200x216.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\jquery.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets2\\js\\smoothscroll.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\smoothscroll.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\css\\demo.css",
+      "PackagePath": "staticwebassets\\assets\\css\\demo.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\avatars\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\1.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\avatars\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\5.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\avatars\\6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\6.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\avatars\\7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avatars\\7.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\backgrounds\\18.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\backgrounds\\18.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\elements\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\1.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\elements\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\11.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\elements\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\12.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\elements\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\13.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\elements\\17.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\17.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\elements\\18.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\18.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\elements\\19.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\19.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\elements\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\2.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\elements\\20.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\20.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\elements\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\3.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\elements\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\4.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\elements\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\5.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\elements\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\7.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\icons\\brands\\asana.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\asana.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\icons\\brands\\behance.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\behance.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\icons\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\dribbble.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\icons\\brands\\facebook.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\facebook.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\icons\\brands\\github.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\github.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\icons\\brands\\google.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\google.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\icons\\brands\\instagram.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\instagram.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\icons\\brands\\mailchimp.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\mailchimp.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\icons\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\slack.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\icons\\brands\\twitter.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\brands\\twitter.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\icons\\unicons\\cc-primary.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\cc-primary.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\icons\\unicons\\cc-success.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\cc-success.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\icons\\unicons\\cc-warning.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\cc-warning.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\icons\\unicons\\chart-success.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\chart-success.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\icons\\unicons\\chart.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\chart.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\icons\\unicons\\paypal.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\paypal.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\icons\\unicons\\wallet-info.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\wallet-info.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\icons\\unicons\\wallet.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\unicons\\wallet.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\illustrations\\man-with-laptop-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\man-with-laptop-light.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\illustrations\\page-misc-error-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\illustrations\\page-misc-error-light.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\layouts\\layout-container-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-container-light.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\layouts\\layout-fluid-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-fluid-light.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\layouts\\layout-without-menu-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-without-menu-light.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\img\\layouts\\layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-without-navbar-light.png"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\js\\config.js",
+      "PackagePath": "staticwebassets\\assets\\js\\config.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\js\\dashboards-analytics.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dashboards-analytics.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\js\\extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\assets\\js\\extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\js\\form-basic-inputs.js",
+      "PackagePath": "staticwebassets\\assets\\js\\form-basic-inputs.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\js\\pages-account-settings-account.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\js\\ui-modals.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ui-modals.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\js\\ui-popover.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ui-popover.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\js\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ui-toasts.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\css\\theme-default.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\fonts\\boxicons.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.eot"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.svg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.woff"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\assets\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\about-1-720x720.jpg",
+      "PackagePath": "staticwebassets\\images\\about-1-720x720.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\about-2-720x720.jpg",
+      "PackagePath": "staticwebassets\\images\\about-2-720x720.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\author-image-1-646x680.jpg",
+      "PackagePath": "staticwebassets\\images\\author-image-1-646x680.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\author-image-2-646x680.jpg",
+      "PackagePath": "staticwebassets\\images\\author-image-2-646x680.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\author-image-3-646x680.jpg",
+      "PackagePath": "staticwebassets\\images\\author-image-3-646x680.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\author-image-4-646x680.jpg",
+      "PackagePath": "staticwebassets\\images\\author-image-4-646x680.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\blog-1-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-1-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\blog-2-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-2-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\blog-3-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-3-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\blog-4-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-4-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\blog-5-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-5-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\blog-6-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-6-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\contact-1-600x400.jpg",
+      "PackagePath": "staticwebassets\\images\\contact-1-600x400.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\offer-1-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\offer-1-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\offer-2-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\offer-2-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\offer-3-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\offer-3-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\offer-4-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\offer-4-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\offer-5-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\offer-5-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\offer-6-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\offer-6-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\other-1-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\other-1-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\other-2-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\other-2-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\other-3-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\other-3-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\other-4-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\other-4-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\other-5-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\other-5-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\other-6-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\other-6-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\other-image-fullscreen-1-1920x700.jpg",
+      "PackagePath": "staticwebassets\\images\\other-image-fullscreen-1-1920x700.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\product-1-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\product-1-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\product-2-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\product-2-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\product-3-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\product-3-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\product-4-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\product-4-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\product-5-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\product-5-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\product-6-720x480.jpg",
+      "PackagePath": "staticwebassets\\images\\product-6-720x480.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\slider-image-1-1920x700.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-image-1-1920x700.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\slider-image-2-1920x700.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-image-2-1920x700.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\slider-image-3-1920x700.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-image-3-1920x700.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\tst-image-1-200x216.jpg",
+      "PackagePath": "staticwebassets\\images\\tst-image-1-200x216.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\tst-image-2-200x216.jpg",
+      "PackagePath": "staticwebassets\\images\\tst-image-2-200x216.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\tst-image-3-200x216.jpg",
+      "PackagePath": "staticwebassets\\images\\tst-image-3-200x216.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\images\\tst-image-4-200x216.jpg",
+      "PackagePath": "staticwebassets\\images\\tst-image-4-200x216.jpg"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\js\\smoothscroll.js",
+      "PackagePath": "staticwebassets\\js\\smoothscroll.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\sem-5\\.net\\student\\Vtm\\VehicleBooking1\\VehicleBooking\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.VehicleBooking.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.VehicleBooking.props",
+      "PackagePath": "build\\VehicleBooking.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.VehicleBooking.props",
+      "PackagePath": "buildMultiTargeting\\VehicleBooking.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.VehicleBooking.props",
+      "PackagePath": "buildTransitive\\VehicleBooking.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

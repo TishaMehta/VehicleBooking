@@ -1,0 +1,113 @@
+﻿@model IEnumerable<VehicleBooking.Areas.LOC_VehicleType.Models.AdminVehicleTypeModel>
+
+@{
+    ViewData["Title"] = "AdminVehicleTypeList";
+}
+
+
+@if (TempData["Message"] != null)
+{
+    <div id="Feature-alert" class="alert alert-success color-success">
+        <i class="bi bi-check-circle"></i> @TempData["Message"]
+    </div>
+
+    <script>
+        setTimeout(function () {
+            $('#Feature-alert').fadeOut('fast');
+        }, 2000); // 2 seconds
+    </script>
+}
+
+<h2>AdminVehicleTypeList</h2>
+<form class="d-flex w-75" role="search" asp-area="LOC_VehicleType" asp-controller="AdminVehicleType" asp-action="AdminVehicleTypeList">
+    <input class="form-control me-2 " type="text" placeholder="VehicleType Name" aria-label="Search" name="VehicleTypeName">
+    <button class="btn btn-outline-success" type="submit">Search</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</form>
+<div class="Card mt-2">
+    <input id="new_1" type="search" placeholder="Search VehicleType" class="form-control" aria-controls="Sample_1" />
+</div>
+</br>
+<div>
+    <a asp-area="LOC_VehicleType" asp-controller="AdminVehicleType" asp-action="Edit" class="btn rounded-pil btn-primary">
+        <div data-i18n="Notifications">VehicleTypeAdd/Edit</div>
+    </a>
+</div>
+</br>
+<div class="card">
+    <div class="table-responsive text-nowrap">
+        <div class="container-fluid">
+            <div class="mt-2"><h5>VehicleType Search</h5></div>
+
+
+
+        </div>
+        <table class="table table-striped">
+
+            <thead>
+
+                <tr>
+                    @*  <th>
+                    @Html.DisplayNameFor(model => model.VehicleTypeID)
+                    </th> *@
+                    <th>
+                        @Html.DisplayNameFor(model => model.VehicleTypeName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Created)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Modified)
+                    </th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0" id="new_2">
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        @*  <td>
+                    @Html.DisplayFor(modelItem => item.VehicleTypeID)
+                    </td> *@
+                        <td>
+                            @Html.DisplayFor(modelItem => item.VehicleTypeName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Created)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Modified)
+                        </td>
+
+                        <td>
+                            <button>
+                                <a href="@Url.Action("Edit", new { id = item.VehicleTypeID })" class="text-primary">
+                                    <i class="bx bx-edit-alt me-1 "></i>
+                                </a>
+                            </button>
+                            <button class="deleteButton" data-id="@item.VehicleTypeID">
+                                <a href="@Url.Action("AdminVehicleTypeDelete", new { id = item.VehicleTypeID })" class="text-danger" onclick="return confirm('Are you sure you want to delete record?')">
+                                    <i class="bx bx-trash"></i>
+                                </a>
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+            $("#new_1").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#new_2 tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                });
+            });
+        });
+
+    </script>
+}

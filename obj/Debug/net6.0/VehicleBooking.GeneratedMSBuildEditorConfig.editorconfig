@@ -1,0 +1,279 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = VehicleBooking
+build_property.RootNamespace = VehicleBooking
+build_property.ProjectDir = E:\sem-5\.net\student\Vtm\VehicleBooking1\VehicleBooking\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\sem-5\.net\student\Vtm\VehicleBooking1\VehicleBooking
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/AboutUS/Views/AboutUs/AboutUS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWJvdXRVU1xWaWV3c1xBYm91dFVzXEFib3V0VVMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/AboutUS/Views/AboutUs/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWJvdXRVU1xWaWV3c1xBYm91dFVzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/BookNow/Views/BookNow/AdminBookingListUserID.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQm9va05vd1xWaWV3c1xCb29rTm93XEFkbWluQm9va2luZ0xpc3RVc2VySUQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/BookNow/Views/BookNow/BookNowAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQm9va05vd1xWaWV3c1xCb29rTm93XEJvb2tOb3dBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/BookNow/Views/BookNow/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQm9va05vd1xWaWV3c1xCb29rTm93XFN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/BookNow/Views/BookNow/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQm9va05vd1xWaWV3c1xCb29rTm93XF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/BookNow/Views/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQm9va05vd1xWaWV3c1xfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/BookNow/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQm9va05vd1xWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/Fleet/Views/Fleet/FleetID.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmxlZXRcVmlld3NcRmxlZXRcRmxlZXRJRC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/Fleet/Views/Fleet/FleetList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmxlZXRcVmlld3NcRmxlZXRcRmxlZXRMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/Fleet/Views/Fleet/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmxlZXRcVmlld3NcRmxlZXRcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/Fleet/Views/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmxlZXRcVmlld3NcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/Fleet/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmxlZXRcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_Booking/Views/AdminBooking/AdminBookingAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0Jvb2tpbmdcVmlld3NcQWRtaW5Cb29raW5nXEFkbWluQm9va2luZ0FkZEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_Booking/Views/AdminBooking/AdminBookingID.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0Jvb2tpbmdcVmlld3NcQWRtaW5Cb29raW5nXEFkbWluQm9va2luZ0lELmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_Booking/Views/AdminBooking/AdminBookingList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0Jvb2tpbmdcVmlld3NcQWRtaW5Cb29raW5nXEFkbWluQm9va2luZ0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_Booking/Views/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0Jvb2tpbmdcVmlld3NcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_Booking/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0Jvb2tpbmdcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_Booking/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0Jvb2tpbmdcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_DropoffLocation/Views/AdminDropoffLocation/AdminDropoffLocationAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0Ryb3BvZmZMb2NhdGlvblxWaWV3c1xBZG1pbkRyb3BvZmZMb2NhdGlvblxBZG1pbkRyb3BvZmZMb2NhdGlvbkFkZEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_DropoffLocation/Views/AdminDropoffLocation/AdminDropoffLocationList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0Ryb3BvZmZMb2NhdGlvblxWaWV3c1xBZG1pbkRyb3BvZmZMb2NhdGlvblxBZG1pbkRyb3BvZmZMb2NhdGlvbkxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_DropoffLocation/Views/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0Ryb3BvZmZMb2NhdGlvblxWaWV3c1xfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_DropoffLocation/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0Ryb3BvZmZMb2NhdGlvblxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_DropoffLocation/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0Ryb3BvZmZMb2NhdGlvblxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_Payment/Views/AdminPayment/AdminPaymentAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1BheW1lbnRcVmlld3NcQWRtaW5QYXltZW50XEFkbWluUGF5bWVudEFkZEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_Payment/Views/AdminPayment/AdminPaymentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1BheW1lbnRcVmlld3NcQWRtaW5QYXltZW50XEFkbWluUGF5bWVudExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_Payment/Views/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1BheW1lbnRcVmlld3NcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_Payment/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1BheW1lbnRcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_Payment/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1BheW1lbnRcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_PickupLocation/Views/AdminPickupLocation/AdminPickupLocationAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1BpY2t1cExvY2F0aW9uXFZpZXdzXEFkbWluUGlja3VwTG9jYXRpb25cQWRtaW5QaWNrdXBMb2NhdGlvbkFkZEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_PickupLocation/Views/AdminPickupLocation/AdminPickupLocationList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1BpY2t1cExvY2F0aW9uXFZpZXdzXEFkbWluUGlja3VwTG9jYXRpb25cQWRtaW5QaWNrdXBMb2NhdGlvbkxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_PickupLocation/Views/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1BpY2t1cExvY2F0aW9uXFZpZXdzXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_PickupLocation/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1BpY2t1cExvY2F0aW9uXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_PickupLocation/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1BpY2t1cExvY2F0aW9uXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_UserAdmin/Views/UserAdmin/AdminUserAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1VzZXJBZG1pblxWaWV3c1xVc2VyQWRtaW5cQWRtaW5Vc2VyQWRkRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_UserAdmin/Views/UserAdmin/AdminUserID.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1VzZXJBZG1pblxWaWV3c1xVc2VyQWRtaW5cQWRtaW5Vc2VySUQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_UserAdmin/Views/UserAdmin/AdminUserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1VzZXJBZG1pblxWaWV3c1xVc2VyQWRtaW5cQWRtaW5Vc2VyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_UserAdmin/Views/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1VzZXJBZG1pblxWaWV3c1xfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_UserAdmin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1VzZXJBZG1pblxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_UserAdmin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1VzZXJBZG1pblxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_Vehicles/Views/AdminVehicles/AdminVehiclesAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1ZlaGljbGVzXFZpZXdzXEFkbWluVmVoaWNsZXNcQWRtaW5WZWhpY2xlc0FkZEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_Vehicles/Views/AdminVehicles/AdminVehiclesID.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1ZlaGljbGVzXFZpZXdzXEFkbWluVmVoaWNsZXNcQWRtaW5WZWhpY2xlc0lELmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_Vehicles/Views/AdminVehicles/AdminVehiclesList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1ZlaGljbGVzXFZpZXdzXEFkbWluVmVoaWNsZXNcQWRtaW5WZWhpY2xlc0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_Vehicles/Views/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1ZlaGljbGVzXFZpZXdzXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_Vehicles/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1ZlaGljbGVzXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_Vehicles/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1ZlaGljbGVzXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_VehicleType/Views/AdminVehicleType/AdminVehicleTypeList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1ZlaGljbGVUeXBlXFZpZXdzXEFkbWluVmVoaWNsZVR5cGVcQWRtaW5WZWhpY2xlVHlwZUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_VehicleType/Views/AdminVehicleType/tm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1ZlaGljbGVUeXBlXFZpZXdzXEFkbWluVmVoaWNsZVR5cGVcdG0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_VehicleType/Views/AdminVehicleType/VehicleTypeAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1ZlaGljbGVUeXBlXFZpZXdzXEFkbWluVmVoaWNsZVR5cGVcVmVoaWNsZVR5cGVBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_VehicleType/Views/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1ZlaGljbGVUeXBlXFZpZXdzXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_VehicleType/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1ZlaGljbGVUeXBlXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Areas/LOC_VehicleType/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1ZlaGljbGVUeXBlXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Views/Home/AdminPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pblBhbmVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Views/Home/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Views/Home/User.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Views/Home/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Views/Shared/_Layout1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Views/Shared/_UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/sem-5/.net/student/Vtm/VehicleBooking1/VehicleBooking/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-g7j78u1xva

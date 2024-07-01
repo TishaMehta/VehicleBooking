@@ -1,0 +1,98 @@
+﻿@model VehicleBooking.Areas.LOC_UserAdmin.Models.UserAdminModel
+
+
+<div class="content-wrapper">
+    <!-- Content -->
+
+    <div class="container-xxl flex-grow-1 container-p-y">
+        <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">User/</span>UserAdd/Edit</h4>
+
+        <!-- Basic Layout & Basic with Icons -->
+        <div class="row">
+            <!-- Basic Layout -->
+            <div class="col-xxl">
+                <div class="card mb-4">
+                    <div class="card-header d-flex align-items-center justify-content-between">
+                        <h5 class="mb-0"> </h5>
+                        <small class="text-muted float-end"> </small>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="Save">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div>
+                                @Html.HiddenFor(x => x.UserID)
+                            </div>
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" asp-for="FirstName" for="basic-default-name">FirstName</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="basic-default-name" placeholder="FirstName" asp-for="FirstName" />
+                                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" asp-for="LastName" for="basic-default-name">LastName</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="basic-default-name" placeholder="LastName" asp-for="LastName" />
+                                    <span asp-validation-for="LastName" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" asp-for="Email" for="basic-default-name">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="basic-default-name" placeholder="Email" asp-for="Email" />
+                                    <span asp-validation-for="Email" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="basic-default-phone" asp-for="PhoneNumber">Phone No</label>
+                                <div class="col-sm-10">
+                                    <input type="text"
+                                           id="basic-default-phone"
+                                           class="form-control phone-mask"
+                                           placeholder="PhoneNumber"
+                                           aria-label="658 799 8941"
+                                           aria-describedby="basic-default-phone" asp-for="PhoneNumber" />
+                                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                                </div>
+
+                            </div>
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="basic-default-message" asp-for="Address">Address</label>
+                                <div class="col-sm-10">
+                                    <textarea id="basic-default-message"
+                                              class="form-control"
+                                              placeholder="Address"
+                                              aria-label="Hi, Do you have a moment to talk Joe?"
+                                              aria-describedby="basic-icon-default-message2" asp-for="Address"></textarea>
+                                    <span asp-validation-for="Address" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" asp-for="Password" for="basic-default-name">Password</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="basic-default-name" placeholder="Password" asp-for="Password" />
+                                    <span asp-validation-for="Password" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div>
+                                <label class="col-sm-2 col-form-label" asp-for="IsAdmin" for="basic-default-name">IsAdmin</label>
+                                <input type="checkbox" placeholder="IsAdmin" asp-for="IsAdmin" />
+                                <span asp-validation-for="IsAdmin" class="text-danger"></span>
+
+                            </div>
+                            <div class="row justify-content-end">
+                                <div class="col-sm-10">
+                                    <button type="submit" asp-area="LOC_UserAdmin" asp-controller="UserAdmin" asp-action="Save" class="btn btn-primary">Save</button>
+                                    <a class="btn btn-info" asp-action="AdminUserList">Back To List</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
